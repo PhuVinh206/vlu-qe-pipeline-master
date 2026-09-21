@@ -6,7 +6,7 @@ function login(username, password) {
   if (username === 'blocked_user') {
     return false;
   }
-  if (username === 'admin' && password === '9999') {
+  if (username === 'admin' && password === '123') {
     return true;
   }
   return false;
