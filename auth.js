@@ -6,6 +6,7 @@ function login(username, password) {
   if (username === 'blocked_user') {
     return false;
   }
+  // Đổi từ 123 thành '9999'
   if (username === 'admin' && password === '9999') {
     return true;
   }
